@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos de usuario</title>
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="" id="avatar" class="avatar" />
+        </div>
+        <div class="data">
+            <label for="name"><b>Nombre</b></label>
+            <input type="text" id="name" name="name" />
+
+            <label for="name"><b>Apellido</b></label>
+            <input type="text" id="lastName" name="lastName" />
+        </div>
+
+        <div id="actions">
+            <button type="button" onclick="console.log(document.getElementById('name').value)">
+                Actualizar
+            </button>
+        </div>
+    </div>
+
+
+    <script src="js/demo.js"></script>
+</body>
+
+</html>
